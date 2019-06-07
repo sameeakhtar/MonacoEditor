@@ -8,6 +8,7 @@ namespace App
     {
         static void Main(string[] args)
         {
+            //Samee Akhtar
             var dictionary = new Dictionary<string, string>() {{"message", "Hello World!"}};
             var serialized = JsonConvert.SerializeObject(dictionary);
             Console.WriteLine(serialized);
